@@ -1,6 +1,7 @@
 # RevoTale · Open‑Source Libraries & Self‑Hosted Tools
 
 [**revotale.com**](https://revotale.com) is a personal playground for building and refining practical software 🛠️.
+
 This organization includes open‑source libraries that support parts of the website, along with a few independent tools that may help other developers 🤝.
 
 ## 🔗 Live Tools & Services
