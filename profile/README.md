@@ -11,6 +11,8 @@ This organization includes open‑source libraries that support parts of the web
 
 ### Content  
 - 📚 [**Blog**](https://revotale.com/blog) – short notes on tech, systems, and cognition.
+---
+[Explore our website navigation map for more.](https://revotale.com/navigation-map)
 
 ## Contributing
 
