@@ -1,4 +1,20 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices"]
+  "extends": ["config:best-practices"],
+  "packageRules": [
+    {
+      "description": "Require a seven-day quarantine for dependency updates",
+      "matchPackageNames": ["*"],
+      "internalChecksFilter": "strict",
+      "minimumReleaseAge": "7 days"
+    },
+    {
+      "description": "Allow RevoTale and l-you maintained releases without quarantine",
+      "matchSourceUrls": [
+        "https://github.com/RevoTale/**",
+        "https://github.com/l-you/**"
+      ],
+      "minimumReleaseAge": null
+    }
+  ]
 }
